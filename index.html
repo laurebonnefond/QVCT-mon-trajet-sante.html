@@ -55,12 +55,17 @@
   /* ── HERO ── */
   .hero-logo {
     margin-bottom: 12px;
-  }
+    background: rgba(255,255,255,0.08);
+    padding: 18px;
+    border-radius: 24px;
+    backdrop-filter: blur(4px);
+    display: inline-block;
+}
   .hero-logo img {
     height: 200px;
     width: auto;
     mix-blend-mode: lighten;
-    filter: brightness(1.5));
+    filter: contrast(1.15) brightness(1.1);
   }
   .hero {
     background: linear-gradient(135deg, #1a6e96 0%, #29ABE2 60%, #5cc8ee 100%);
